@@ -38,7 +38,8 @@ The description of pickle file saved in the 'Data' folder is as follows:
 
 
 ## Results and Improvements: <a name="results"></a>
-
+Conclusion & Improvements:
+1. We are still getting incorrect tweet classifications due to limited amount of training data given to the classification model. Example of this is the wrong classification of feminism realted inappropriate tweet in the Tweet_classification notebook. As the training data does not contain many tweets with such inappropriate language regarding feminism, it is impossible for the model to classify tweets with similar language as inappropriate. To solve this issue we need to increase our training data size to incorporate all different types of hate / inappropriate tweets.  
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Credit to Kaggle and Twitter for providing the data.
