@@ -20,7 +20,10 @@ Here is the explanation of each feature in the file :
    `train.csv`
    - tweet : Tweet posted by a twitter user.
    - label : 0 - Normal tweet , 1 - Hatefule tweet
-   
+
+Program flow:
+![Tweets](https://user-images.githubusercontent.com/75063039/127781925-b09c261e-7947-4d2f-879c-6f8322aaee03.png)
+
 The six notebooks we see perform the follwong functions:
    - ETL Notebook : This notebook contains the Extract, Transform and load pipline (ETL pipeline).
    - Modelling Notebook : This notebook contains the Machine learning pipeline developed with NLTK and Scikit-Learn.
